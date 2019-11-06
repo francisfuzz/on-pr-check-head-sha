@@ -16,4 +16,4 @@ jobs:
         # Docs: https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#pull-request-event-pull_request
         PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       run: |
-        echo The PR's HEAD SHA is $PR_HEAD_SHA
+        echo The HEAD SHA of this pull request is $PR_HEAD_SHA
